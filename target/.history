@@ -1,0 +1,8 @@
+runMain example.Hello foo bar hoge
+runMain example.Hello [foo bar hoge]
+runMain example.Hello foo,bar,hoge
+runMain example.Hello [foo,bar,hoge]
+runMain example.Hello (foo,bar)
+runMain example.Hello (foo bar)
+runMain example.Hello List(foo,bar)
+console
